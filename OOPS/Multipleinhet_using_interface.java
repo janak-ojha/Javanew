@@ -16,7 +16,7 @@ class Cow implements Animalse,Hervivore
 public class Multipleinhet_using_interface {
     public static void main(String[] args) {
         Cow nr=new Cow();
-        nr.eat();
+        nr.eat();as
     }
     
 }
