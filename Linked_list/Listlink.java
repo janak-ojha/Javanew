@@ -99,6 +99,18 @@ public class Listlink {
         head.next=null;
         head=prevnode;
     }
+    public Node reverseRecursive(Node head)
+    {
+        if(head==null || head.next==null)
+        {
+            return head;
+        }
+        Node newHead=reverseRecursive(head.next);
+        head.next.next=head;
+        head.next=null;
+        return newHead;
+    }
+    
     
     public static void main(String[] args) {
         Listlink liste=new Listlink();
@@ -107,7 +119,7 @@ public class Listlink {
         liste.Inserteen(3);
         liste.Inserteen(4);
         liste.Printe();
-        liste.reverse();
+        liste.head=liste.reverseRecursive(liste.head);
         liste.Printe();
         
 
