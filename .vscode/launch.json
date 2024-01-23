@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Bst_root_to_leaf",
+            "request": "launch",
+            "mainClass": "Tree.Bst_root_to_leaf",
+            "projectName": "javanew_4881d2d3"
+        },
+        {
+            "type": "java",
+            "name": "Bst_finding_elementbtn_range",
+            "request": "launch",
+            "mainClass": "Tree.Bst_finding_elementbtn_range",
+            "projectName": "javanew_4881d2d3"
+        },
+        {
+            "type": "java",
             "name": "Bst_deleting_node",
             "request": "launch",
             "mainClass": "Tree.Bst_deleting_node",
