@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Hashmap",
+            "request": "launch",
+            "mainClass": "Hash.Hashmap",
+            "projectName": "javanew_4881d2d3"
+        },
+        {
+            "type": "java",
+            "name": "Hash_Set",
+            "request": "launch",
+            "mainClass": "Hash.Hash_Set",
+            "projectName": "javanew_4881d2d3"
+        },
+        {
+            "type": "java",
             "name": "Bst_root_to_leaf",
             "request": "launch",
             "mainClass": "Tree.Bst_root_to_leaf",
