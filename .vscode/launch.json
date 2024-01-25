@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "finding_subarray",
+            "request": "launch",
+            "mainClass": "Array.finding_subarray",
+            "projectName": "javanew_4881d2d3"
+        },
+        {
+            "type": "java",
+            "name": "ll",
+            "request": "launch",
+            "mainClass": "Linked_list.ll",
+            "projectName": "javanew_4881d2d3"
+        },
+        {
+            "type": "java",
             "name": "Hashmap",
             "request": "launch",
             "mainClass": "Hash.Hashmap",
