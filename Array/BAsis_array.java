@@ -7,7 +7,7 @@ public class BAsis_array {
         System.out.println("enter the size of array");
         int size=sc.nextInt();
         int num[]=new int[size];
-        System.out.println("enter tje element of array");
+        System.out.println("enter tje gi");
 
        
          for(int i=0;i<size;i++)
